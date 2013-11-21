@@ -1,0 +1,16 @@
+# DO NOT DELETE
+
+global.o: ./iostream.h options.h config.h types.h global.h fetch/file.h
+global.o: utils/url.h utils/string.h utils/debug.h utils/Vector.h
+global.o: fetch/site.h utils/Fifo.h fetch/specbuf.h fetch/savespecbuf.h
+global.o: fetch/hashTable.h utils/hashDup.h utils/PersistentFifo.h
+global.o: utils/text.h utils/connexion.h utils/mypthread.h
+global.o: utils/ConstantSizedFifo.h utils/SyncFifo.h fetch/checker.h
+global.o: interf/output.h interf/input.h
+main.o: options.h config.h global.h fetch/file.h types.h utils/url.h
+main.o: utils/string.h utils/debug.h utils/Vector.h fetch/site.h utils/Fifo.h
+main.o: fetch/specbuf.h fetch/savespecbuf.h fetch/hashTable.h utils/hashDup.h
+main.o: utils/PersistentFifo.h utils/text.h utils/connexion.h
+main.o: utils/mypthread.h utils/ConstantSizedFifo.h utils/SyncFifo.h
+main.o: fetch/checker.h fetch/sequencer.h fetch/fetchOpen.h fetch/fetchPipe.h
+main.o: interf/input.h interf/output.h utils/webserver.h utils/histogram.h

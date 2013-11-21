@@ -1,0 +1,44 @@
+# DO NOT DELETE
+
+PersistentFifo.o: ../iostream.h ../types.h ../global.h ../fetch/file.h
+PersistentFifo.o: ../options.h ../config.h ../utils/url.h ../utils/string.h
+PersistentFifo.o: ../utils/debug.h ../utils/Vector.h ../fetch/site.h
+PersistentFifo.o: ../utils/Fifo.h ../fetch/specbuf.h ../fetch/savespecbuf.h
+PersistentFifo.o: ../fetch/hashTable.h ../utils/hashDup.h
+PersistentFifo.o: ../utils/PersistentFifo.h ../utils/text.h
+PersistentFifo.o: ../utils/connexion.h ../utils/mypthread.h
+PersistentFifo.o: ../utils/ConstantSizedFifo.h ../utils/SyncFifo.h
+PersistentFifo.o: ../fetch/checker.h
+connexion.o: ../iostream.h ../options.h ../config.h
+debug.o: ../iostream.h ../options.h ../config.h ../types.h
+hashDup.o: ../config.h ../iostream.h ../types.h ../utils/hashDup.h
+hashDup.o: ../utils/connexion.h
+histogram.o: ../options.h ../config.h ../global.h ../fetch/file.h ../types.h
+histogram.o: ../utils/url.h ../utils/string.h ../utils/debug.h
+histogram.o: ../utils/Vector.h ../fetch/site.h ../utils/Fifo.h
+histogram.o: ../fetch/specbuf.h ../fetch/savespecbuf.h ../fetch/hashTable.h
+histogram.o: ../utils/hashDup.h ../utils/PersistentFifo.h ../utils/text.h
+histogram.o: ../utils/connexion.h ../utils/mypthread.h
+histogram.o: ../utils/ConstantSizedFifo.h ../utils/SyncFifo.h
+histogram.o: ../fetch/checker.h ../utils/histogram.h
+mypthread.o: ../iostream.h ../utils/mypthread.h ../options.h ../config.h
+string.o: ../iostream.h ../options.h ../config.h ../utils/text.h
+string.o: ../utils/string.h ../types.h ../utils/debug.h
+text.o: ../iostream.h ../options.h ../config.h ../utils/text.h
+text.o: ../utils/string.h ../types.h ../utils/debug.h
+url.o: ../options.h ../config.h ../types.h ../global.h ../fetch/file.h
+url.o: ../utils/url.h ../utils/string.h ../utils/debug.h ../utils/Vector.h
+url.o: ../fetch/site.h ../utils/Fifo.h ../fetch/specbuf.h
+url.o: ../fetch/savespecbuf.h ../fetch/hashTable.h ../utils/hashDup.h
+url.o: ../utils/PersistentFifo.h ../utils/text.h ../utils/connexion.h
+url.o: ../utils/mypthread.h ../utils/ConstantSizedFifo.h ../utils/SyncFifo.h
+url.o: ../fetch/checker.h
+webserver.o: ../iostream.h ../options.h ../config.h ../global.h
+webserver.o: ../fetch/file.h ../types.h ../utils/url.h ../utils/string.h
+webserver.o: ../utils/debug.h ../utils/Vector.h ../fetch/site.h
+webserver.o: ../utils/Fifo.h ../fetch/specbuf.h ../fetch/savespecbuf.h
+webserver.o: ../fetch/hashTable.h ../utils/hashDup.h
+webserver.o: ../utils/PersistentFifo.h ../utils/text.h ../utils/connexion.h
+webserver.o: ../utils/mypthread.h ../utils/ConstantSizedFifo.h
+webserver.o: ../utils/SyncFifo.h ../fetch/checker.h ../fetch/sequencer.h
+webserver.o: ../utils/histogram.h ../interf/useroutput.h
